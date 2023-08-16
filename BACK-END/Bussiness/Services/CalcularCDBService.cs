@@ -20,10 +20,11 @@ namespace Bussiness.Services
                 valorAtual = calculadoraInvestimentoCDB.CalcularInvestimento(valorAtual);
               
             }
+            var valorBruto = valorAtual;
             var impostoRenda = calculadoraImpostoRenda.CalcularImpostoRenda(valorInicial, valorAtual, qtdMeses);
-            var rendimentoTotal = valorAtual - impostoRenda;
-
-            return rendimentoTotal.ToString();
+            var valorLiquido = valorAtual - impostoRenda;
+            
+            return $"Valor Bruto: {String.Format("{0:0.00}", valorBruto)} | Valor Líquido: {String.Format("{0:0.00}", valorLiquido)}";
         }
     }
 }

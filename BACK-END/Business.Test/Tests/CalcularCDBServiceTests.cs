@@ -13,7 +13,7 @@ namespace Business.Test.Tests
 
             var resultado = calcularCDBService.CalcularCDB(valorInicial, qtdMeses);
 
-            Assert.Equal("1098,4656759722443", resultado); 
+            Assert.Equal("Valor Bruto: 1123,08 | Valor Líquido: 1098,47", resultado); 
         }
 
         [Fact]

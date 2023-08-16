@@ -22,15 +22,3 @@ C:\Users\guilh\Source\Repos\guile1989\CalculadoraCDB3\Bussiness\obj\Debug\net6.0
 C:\Users\guilh\Source\Repos\guile1989\CalculadoraCDB3\Bussiness\obj\Debug\net6.0\refint\Bussiness.dll
 C:\Users\guilh\Source\Repos\guile1989\CalculadoraCDB3\Bussiness\obj\Debug\net6.0\Bussiness.pdb
 C:\Users\guilh\Source\Repos\guile1989\CalculadoraCDB3\Bussiness\obj\Debug\net6.0\ref\Bussiness.dll
-C:\Users\guilh\source\repos\guile1989\CalculadoraCDB3\BACK-END\Bussiness\bin\Debug\net6.0\Bussiness.deps.json
-C:\Users\guilh\source\repos\guile1989\CalculadoraCDB3\BACK-END\Bussiness\bin\Debug\net6.0\Bussiness.dll
-C:\Users\guilh\source\repos\guile1989\CalculadoraCDB3\BACK-END\Bussiness\bin\Debug\net6.0\Bussiness.pdb
-C:\Users\guilh\source\repos\guile1989\CalculadoraCDB3\BACK-END\Bussiness\obj\Debug\net6.0\Bussiness.csproj.AssemblyReference.cache
-C:\Users\guilh\source\repos\guile1989\CalculadoraCDB3\BACK-END\Bussiness\obj\Debug\net6.0\Bussiness.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\guilh\source\repos\guile1989\CalculadoraCDB3\BACK-END\Bussiness\obj\Debug\net6.0\Bussiness.AssemblyInfoInputs.cache
-C:\Users\guilh\source\repos\guile1989\CalculadoraCDB3\BACK-END\Bussiness\obj\Debug\net6.0\Bussiness.AssemblyInfo.cs
-C:\Users\guilh\source\repos\guile1989\CalculadoraCDB3\BACK-END\Bussiness\obj\Debug\net6.0\Bussiness.csproj.CoreCompileInputs.cache
-C:\Users\guilh\source\repos\guile1989\CalculadoraCDB3\BACK-END\Bussiness\obj\Debug\net6.0\Bussiness.dll
-C:\Users\guilh\source\repos\guile1989\CalculadoraCDB3\BACK-END\Bussiness\obj\Debug\net6.0\refint\Bussiness.dll
-C:\Users\guilh\source\repos\guile1989\CalculadoraCDB3\BACK-END\Bussiness\obj\Debug\net6.0\Bussiness.pdb
-C:\Users\guilh\source\repos\guile1989\CalculadoraCDB3\BACK-END\Bussiness\obj\Debug\net6.0\ref\Bussiness.dll

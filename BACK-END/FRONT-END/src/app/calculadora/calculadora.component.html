@@ -1,0 +1,31 @@
+<div class="container">
+    <mat-card-content>
+      <p>Calcule seu CDB Aqui.</p>
+      <form [formGroup]="calculadoraForm">
+        <mat-form-field>
+          <mat-label>Valor Monetário</mat-label>
+          <input matInput type="number" placeholder="Informe o valor monetário" formControlName="valorMonetario">
+          <mat-error *ngIf="calculadoraForm.get('valorMonetario')?.hasError('required')">
+            Valor monetário é obrigatório.
+          </mat-error>
+          <mat-error *ngIf="calculadoraForm.get('valorMonetario')?.hasError('positiveNumber') || calculadoraForm.get('valorMonetario')?.hasError('positiveNonZeroNumber')">
+            Valor monetário deve ser um número positivo maior que zero.
+          </mat-error>
+        </mat-form-field>
+        <mat-form-field>
+          <mat-label>Prazo em Meses</mat-label>
+          <input matInput type="number" placeholder="Informe o prazo em meses" formControlName="prazoMeses">
+          <mat-error *ngIf="calculadoraForm.get('prazoMeses')?.invalid && (calculadoraForm.get('prazoMeses')?.dirty || calculadoraForm.get('prazoMeses')?.touched)">
+            Prazo em meses deve ser maior que 1.
+          </mat-error>
+        </mat-form-field>
+        <div class="button-container">
+          <button mat-raised-button color="primary" (click)="calcularInvestimento()" [disabled]="calculadoraForm.invalid">Calcular</button>
+        </div>
+        <div class="resultado" *ngIf="resultado !== undefined && resultado !== ''">
+          <p>{{ resultado}}</p>
+        </div>
+      </form>
+    </mat-card-content>
+  </div>
+  

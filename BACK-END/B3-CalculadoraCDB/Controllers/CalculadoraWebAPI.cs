@@ -21,7 +21,7 @@ namespace B3_CalculadoraCDB.Controllers
                 return BadRequest(response);
             }
 
-            return Ok(response);
+            return Json(response);
         }
     }
 }

@@ -1,3 +1,0 @@
-﻿<Project>
-  <Import Project="..\buildMultiTargeting\B3-CalculadoraCDB.props" />
-</Project>
